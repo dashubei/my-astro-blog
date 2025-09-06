@@ -1,0 +1,22 @@
+<header class="c-header">
+  <nav class="c-header__inner">
+    <a class="c-header__logo" href="/">HOME</a>
+    <ul class="c-header__list">
+      <li class="c-header__item">
+        <a href="/about">ABOUT</a>
+      </li>
+    </ul>
+  </nav>
+</header>
+
+<style lang="scss">
+  @use "@/styles/foundation/_functions" as *;
+  .c-header {
+    &__inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: font-rem(10) font-rem(8);
+    }
+  }
+</style>
